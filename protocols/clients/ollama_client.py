@@ -8,7 +8,7 @@ class OllamaClient(BaseLLM):
 
     def __init__(
             self,
-            model: str = "llama2",
+            model: str = "llama3.2",
             base_url: str = "http://localhost:11434",
             **kwargs: Any
     ):
